@@ -105,7 +105,7 @@ func (g ProfanityDetector) sanitize(s string) string {
 		s = strings.Replace(s, "3", "e", -1)
 		s = strings.Replace(s, "4", "a", -1)
 		s = strings.Replace(s, "5", "s", -1)
-		s = strings.Replace(s, "6", "b", -1)
+		s = strings.Replace(s, "6", "g", -1)
 		s = strings.Replace(s, "7", "l", -1)
 		s = strings.Replace(s, "8", "b", -1)
 	}
